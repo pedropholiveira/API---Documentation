@@ -374,7 +374,7 @@
 * Método: GET. </br>
 * Função: Rota utilizada para alterar o estado das saidas do dispositivo. </br>
 * <b/>PARAMETROS:</b>
-	* address: - > Rele a ser atuado (1 - n° maximo de reles da niobox ([consultar manual)](https://zionstech.com/)) <b/>obrigatório.</b>
+	* address: - > Rele a ser atuado (1 - n° maximo de reles da niobox consultar manual<!--([consultar manual)](https://zionstech.com/))--> <b/>obrigatório.</b>
 	* state: -> Estado que o rele referenciado pelo address devera assumir (1 = ligado e 0 = desligado) <b/>obrigatório.</b>
 	* time_1: -> Valor de tempo que o rele permanecera no estado definido pelo parametro state <b/>opcional.</b>
 	* time_2: -> Valor de tempo que o rele permanecera no estado inverso definido pelo parametro state  <b/>opcional.</b>
@@ -492,7 +492,7 @@ MODOS DE OPERAÇÃO:
 * Método: POST. </br>
 * Função: Rota utilizada para alterar o estado das saidas do dispositivo. </br>
 * <b/>PARAMETROS:</b>
-	* address: - > Rele a ser atuado (1 - n° maximo de reles da niobox ([consultar manual)](https://zionstech.com/)) <b/>obrigatório.</b>
+	* address: - > Rele a ser atuado (1 - n° maximo de reles da niobox consultar manual<!--([consultar manual)](https://zionstech.com/))-->  <b/>obrigatório.</b>
 	* state: -> Estado que o rele referenciado pelo address devera assumir (1 = ligado e 0 = desligado) <b/>obrigatório.</b>
 	* time_1: -> Valor de tempo que o rele permanecera no estado definido pelo parametro state <b/>opcional.</b>
 	* time_2: -> Valor de tempo que o rele permanecera no estado inverso definido pelo parametro state  <b/>opcional.</b>
@@ -1118,7 +1118,7 @@ MODOS DE OPERAÇÃO:
 * Método: GET. </br>
 * Função: Rota utilizada para inverter o estado de uma saida do dispositivo. </br>
 * <b/>PARAMETROS:</b>
-	* address: - > Rele a ser atuado (1 - n° maximo de reles da niobox ([consultar manual)](https://zionstech.com/)) <b/>obrigatório.</b>
+	* address: - > Rele a ser atuado (1 - n° maximo de reles da niobox consultar manual<!--([consultar manual)](https://zionstech.com/))-->  <b/>obrigatório.</b>
 * Exemplo de Requisição:
 
 			niobox.local/or_out?address=1	
