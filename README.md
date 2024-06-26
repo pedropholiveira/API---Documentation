@@ -78,7 +78,7 @@
 </div>
 
 <div id ='set_ip' >
-<h2>Configuração do entdereço de IP: GET</h2> 
+<h2>Configuração do endereço de IP: GET</h2> 
   
 * Rota: "niobox.local/set_ip_config" ou "<b/>ip_niobox</b>/set_ip_config"</br>
 * Método: GET. </br>
